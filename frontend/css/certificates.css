@@ -1,0 +1,66 @@
+.certificates-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.nft-certificate-viewer, .leaderboards {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.certificate-card {
+  background: #E3F0FB;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+  min-width: 220px;
+}
+.certificate-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.certificate-actions button {
+  background: var(--blue-primary);
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.leaderboard-entry {
+  background: #F5F8FB;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+}
+@media (max-width: 900px) {
+  .certificate-card {
+    padding: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .certificates-main {
+    padding: 1rem 0;
+  }
+  .certificate-card {
+    width: 90vw;
+    min-width: unset;
+    padding: 1rem;
+  }
+  .certificate-actions {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+} 

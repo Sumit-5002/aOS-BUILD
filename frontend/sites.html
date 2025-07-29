@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlueGuard – Sites</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/sites.css">
+</head>
+<body>
+  <nav class="top-nav glass">
+    <a href="index.html" class="logo"><img src="assets/logo.png" alt="BlueGuard Logo"></a>
+    <ul class="nav-links">
+      <li><a href="index.html"><img src="assets/icon-dashboard.svg" alt="Home" class="nav-icon"> Home</a></li>
+      <li><a href="dashboard.html"><img src="assets/icon-dashboard.svg" alt="Dashboard" class="nav-icon"> Live Dashboard</a></li>
+      <li><a href="sites.html"><img src="assets/icon-site.svg" alt="Sites" class="nav-icon"> Sites</a></li>
+      <li><a href="marketplace.html"><img src="assets/icon-marketplace.svg" alt="Marketplace" class="nav-icon"> Marketplace</a></li>
+      <li><a href="certificates.html"><img src="assets/icon-certificate.svg" alt="Certificates" class="nav-icon"> Certificates</a></li>
+      <li><a href="about.html"><img src="assets/icon-support.svg" alt="About" class="nav-icon"> About</a></li>
+    </ul>
+    <div class="nav-account">
+      <button id="connect-wallet"><img src="assets/icon-wallet.svg" alt="Wallet" class="nav-icon"> Connect Wallet</button>
+      <img src="assets/icon-bell.svg" alt="Notifications" class="icon">
+      <img src="assets/logo.png" alt="Profile" class="icon" style="width:32px;height:32px;border-radius:50%;opacity:0.7;">
+    </div>
+  </nav>
+  <div class="futuristic-bg"></div>
+  <aside class="quick-actions">
+    <button title="Register Site"><img src="assets/icon-add.svg" alt="Register Site"></button>
+    <button title="Retire Credits"><img src="assets/icon-certificate.svg" alt="Retire Credits"></button>
+    <button title="Download Certificate"><img src="assets/icon-download.svg" alt="Download Certificate"></button>
+    <button title="Support"><img src="assets/icon-support.svg" alt="Support"></button>
+  </aside>
+  <div class="mouse-tracker"></div>
+  <main class="sites-main">
+    <section class="site-registration">
+      <h2>Register a New Site</h2>
+      <div class="map-registration-placeholder">[Map & Polygon Drawing Coming Soon]</div>
+      <form class="site-form">
+        <input type="text" placeholder="Site Name" required>
+        <input type="text" placeholder="Legal Type">
+        <input type="text" placeholder="Contact">
+        <input type="text" placeholder="Sensor Type">
+        <input type="file" accept="image/*">
+        <button type="submit">Register Site</button>
+      </form>
+    </section>
+    <section class="site-list">
+      <h2>Registered Sites</h2>
+      <div class="site-card-grid">
+        <div class="site-card">Site 1 – <span>Active</span></div>
+        <div class="site-card">Site 2 – <span>Inactive</span></div>
+        <div class="site-card">Site 3 – <span>Active</span></div>
+      </div>
+      <button class="add-site-btn">Add New Site</button>
+    </section>
+    <section class="site-details">
+      <h2>Site Details</h2>
+      <div class="site-details-placeholder">[Site Details & Timeline Coming Soon]</div>
+    </section>
+  </main>
+  <script src="js/sites.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html> 
